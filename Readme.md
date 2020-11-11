@@ -12,7 +12,9 @@ Data modifications are implemented using the [client-side API](https://docs.deve
 4. To save changes, use the [UpdateTask](https://docs.devexpress.com/AspNet/js-ASPxClientGantt.UpdateTask%28key-data%29?p=netframework) and [AssignResourceToTask](https://docs.devexpress.com/AspNet/js-ASPxClientGantt.AssignResourceToTask%28resourceKey-taskKey%29)/[UnassignResourceFromTask](https://docs.devexpress.com/AspNet/js-ASPxClientGantt.UnassignResourceFromTask%28resourceKey-taskKey%29) methods. Hide the popup after this.
 
 [Default.aspx][0]([Default.aspx][1])
+
 [Default.aspx.cs][2]([Default.aspx.vb][3])
+
 [GanttDataProvider.cs][4]([GanttDataProvider.vb][5])
  
  
