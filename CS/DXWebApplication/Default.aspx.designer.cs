@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DXWebApplication14 {
-    
-    
-    public partial class WebForm1 {
-        
+namespace DXWebApplication14
+{
+
+
+    public partial class WebForm1
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// Gantt control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxGantt.ASPxGantt Gantt;
-        
+
         /// <summary>
         /// TasksDataSource control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ObjectDataSource TasksDataSource;
-        
+
         /// <summary>
         /// DependenciesDataSource control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ObjectDataSource DependenciesDataSource;
-        
+
         /// <summary>
         /// ResourcesDataSource control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ObjectDataSource ResourcesDataSource;
-        
+
         /// <summary>
         /// ResourceAssignmentsDataSource control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ObjectDataSource ResourceAssignmentsDataSource;
-        
+
         /// <summary>
         /// CustomTaskDetails control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxPopupControl CustomTaskDetails;
-        
+
         /// <summary>
         /// HiddenField control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxHiddenField HiddenField;
-        
+
         /// <summary>
         /// ASPxFormLayout1 control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxFormLayout ASPxFormLayout1;
-        
+
         /// <summary>
         /// ASPxFormLayout1_E1 control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox ASPxFormLayout1_E1;
-        
+
         /// <summary>
         /// ASPxFormLayout1_E2 control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTrackBar ASPxFormLayout1_E2;
-        
+
         /// <summary>
         /// ASPxFormLayout1_E3 control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTokenBox ASPxFormLayout1_E3;
-        
+
         /// <summary>
         /// ASPxFormLayout1_E4 control.
         /// </summary>
@@ -128,7 +130,16 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxMemo ASPxFormLayout1_E4;
-        
+
+        /// <summary>
+        /// resourceManagerButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxButton resourceManagerButton;
+
         /// <summary>
         /// ASPxFormLayout1_E5 control.
         /// </summary>
@@ -137,7 +148,7 @@ namespace DXWebApplication14 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxButton ASPxFormLayout1_E5;
-        
+
         /// <summary>
         /// ASPxButton1 control.
         /// </summary>
