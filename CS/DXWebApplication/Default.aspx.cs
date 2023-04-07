@@ -8,16 +8,10 @@ using System.Web.UI.WebControls;
 
 namespace DXWebApplication14 {
     public partial class WebForm1 : System.Web.UI.Page {
-        protected void Page_Load(object sender, EventArgs e) {
-
-        }
         protected void ASPxFormLayout1_E3_Init(object sender, EventArgs e) {
             ASPxTokenBox tb = sender as ASPxTokenBox;
             tb.DataSource = GanttDataProvider.GetResources();
             tb.DataBindItems();
         }
-
-       
-    
     }
 }
