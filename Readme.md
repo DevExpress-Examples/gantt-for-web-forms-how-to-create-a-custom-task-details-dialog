@@ -15,7 +15,7 @@ This example demonstrates how to implement a custom **Task Details** dialog for 
 To display a custom dialog, you should cancel the default dialog showing and display a custom dialog instead. In this example, the custom dialog is implemented using the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl).
 
 1. Create [PopupControl](./CS/DXWebApplication/Default.aspx#L87) with the FormLayout inside. Adjust editors in the FormLayout.
-2. Handle the client-side [TaskDblClick](https://docs.devexpress.com/AspNet/js-ASPxClientGantt.TaskDblClick) event and cancel the default dialog showing. Display your custom dialog.
+2. Handle the client-side [TaskDblClick](https://docs.devexpress.com/AspNet/js-ASPxClientGantt.TaskDblClick) event and prevent the default dialog from showing and display your custom dialog.
     ```js
     function onTaskDblClick(s, e) {
         e.cancel = true;
@@ -24,7 +24,7 @@ To display a custom dialog, you should cancel the default dialog showing and dis
         customTaskDetailsPopup.Show();
     }
     ```
-3. In the popup's [Shown](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.Shown) event handler, call the [GetTaskData](https://docs.devexpress.com/AspNet/js-ASPxClientGantt.GetTaskData%28key%29) method to obtain an edited task data. [Specify values](./CS/DXWebApplication/Default.aspx#L28) of editors in the dialog.
+3. In the popup's [Shown](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.Shown) event handler, call the [GetTaskData](https://docs.devexpress.com/AspNet/js-ASPxClientGantt.GetTaskData%28key%29) method to obtain an edited task's data. [Specify values](./CS/DXWebApplication/Default.aspx#L28) of editors in the dialog.
 
     ```js
     function onShown(s, e) {
