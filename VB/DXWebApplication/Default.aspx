@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DXWebApplication14.WebForm1" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="DXWebApplication14.WebForm1" %>
 
 <%@ Register Assembly="DevExpress.Web.ASPxGantt.v21.2, Version=21.2.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxGantt" TagPrefix="dx" %>
 
@@ -34,9 +34,8 @@
 
         function UpdateAndClose(key, task, newResources) {
             clientGantt.UpdateTask(key, task);
-            currentResources = clientGantt.GetTaskResources(key).map(r => r.ID);
-            newResources.split(",").filter(r => !currentResources.includes(r)).forEach(r => clientGantt.AssignResourceToTask(r, key));
-            currentResources.filter(r => !newResources.split(",").includes(r)).forEach(r => clientGantt.UnassignResourceFromTask(r, key));
+            clientGantt.UnassignAllResourcesFromTask(key);
+            newResources.split(",").forEach(r => clientGantt.AssignResourceToTask(r, key));
             hiddenField.Remove("taskKey");
             customTaskDetailsPopup.Hide();
         }
@@ -122,6 +121,15 @@
                                             <LayoutItemNestedControlCollection>
                                                 <dx:LayoutItemNestedControlContainer runat="server">
                                                     <dx:ASPxMemo runat="server" ClientInstanceName="memo" Width="100%" ID="ASPxFormLayout1_E4"></dx:ASPxMemo>
+                                                </dx:LayoutItemNestedControlContainer>
+                                            </LayoutItemNestedControlCollection>
+                                        </dx:LayoutItem>
+                                          <dx:LayoutItem FieldName="Resource Manager" HorizontalAlign="Right" ShowCaption="False">
+                                            <LayoutItemNestedControlCollection>
+                                                <dx:LayoutItemNestedControlContainer runat="server">
+                                                    <dx:ASPxButton runat="server" AutoPostBack="false" Text="Show Resource Manager"  Width="120px" ID="resourceManagerButton">
+                                                        <ClientSideEvents Click="function(){ clientGantt.ShowResourceManagerDialog() }" />
+                                                    </dx:ASPxButton>
                                                 </dx:LayoutItemNestedControlContainer>
                                             </LayoutItemNestedControlCollection>
                                         </dx:LayoutItem>
