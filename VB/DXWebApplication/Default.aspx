@@ -1,6 +1,6 @@
 <%@ Page Language="VB" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="DXWebApplication14.WebForm1" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxGantt.v21.2, Version=21.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxGantt" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.ASPxGantt.v21.2, Version=21.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxGantt" TagPrefix="dx" %>
 
 <!DOCTYPE html>
 
