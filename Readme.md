@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Gantt for  Web Forms - How to implement a custom Task Details dialog 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/311753879/)**
-<!-- run online end -->
 
 This example demonstrates how to implement a custom **Task Details** dialog for the Gantt control. 
 
