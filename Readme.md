@@ -45,7 +45,7 @@ To display a custom dialog, you should cancel the default dialog showing and dis
 
 * [Manage Tasks](https://docs.devexpress.com/AspNet/401579/components/gantt/edit-data/manage-tasks)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=gantt-for-web-forms-how-to-create-a-custom-task-details-dialog&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=gantt-for-web-forms-how-to-create-a-custom-task-details-dialog&~~~was_helpful=no)
 
