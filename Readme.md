@@ -20,7 +20,7 @@ Data modifications are implemented using the [client-side API](https://docs.deve
 
 [GanttDataProvider.cs](./CS/DXWebApplication/App_Data/GanttDataProvider.cs)([GanttDataProvider.vb](./VB/DXWebApplication/App_Data/GanttDataProvider.vb))
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=gantt-for-web-forms-how-to-create-a-custom-task-details-dialog&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=gantt-for-web-forms-how-to-create-a-custom-task-details-dialog&~~~was_helpful=no)
 
